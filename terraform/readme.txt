@@ -1,0 +1,1 @@
+Directorio con los scripts necesarios para terraform

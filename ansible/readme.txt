@@ -1,1 +1,1 @@
-Fichero con información
+Directorio con los scripts necesarios para ansible
