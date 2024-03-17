@@ -33,7 +33,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   name                = "myLinuxVM"
   resource_group_name = azurerm_resource_group.vm_rg.name
   location            = azurerm_resource_group.vm_rg.location
-  size                = "Standard_B1ls" # This size offers 1 vCPU
+  size                = "Standard_B1s" 
   admin_username      = "adminuser"
   network_interface_ids = [
     azurerm_network_interface.vm_nic.id,
