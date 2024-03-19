@@ -1,2 +1,2 @@
 [server]
-192.168.1.35
+192.168.1.35 ansible_ssh_user=eduardo ansible_ssh_private_key_file=~/.ssh/alma
